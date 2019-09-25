@@ -12,9 +12,9 @@ class Db
 	{
 		// Параметры регистрации для подключения к БД
         $dbhost = 'localhost'; // Хост базы данных localhost
-        $dbuser = 'shvyrkov_beejee'; // Пользователь базы данных shvyrkov_beejee
-        $dbpass = 'beejee_150919'; // Пароль от базы данных beejee_150919
-        $dbname = 'shvyrkov_beejee'; // Имя базы данных shvyrkov_beejee
+        $dbuser = 'root'; // Пользователь базы данных shvyrkov_beejee
+        $dbpass = ''; // Пароль от базы данных beejee_150919
+        $dbname = 'beejee'; // Имя базы данных shvyrkov_beejee
         echo '<meta charset="utf-8"><br>';// Выставляем кодировку для браузера.
         
         $db_connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname); // Создаем объект mysqli и подключаемся к БД.
