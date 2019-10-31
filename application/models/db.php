@@ -13,7 +13,7 @@ class Db
 		// Параметры регистрации для подключения к БД
         $dbhost = 'localhost'; // Хост базы данных localhost
         $dbuser = 'root'; // Пользователь базы данных shvyrkov_beejee
-        $dbpass = ''; // Пароль от базы данных beejee_150919
+        $dbpass = 'mysql'; // Пароль от базы данных beejee_150919
         $dbname = 'beejee'; // Имя базы данных shvyrkov_beejee
         echo '<meta charset="utf-8"><br>';// Выставляем кодировку для браузера.
         
